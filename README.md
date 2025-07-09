@@ -1,18 +1,19 @@
-# Snake Game (Python)
+# Snake Game with Q-Learning (Python)
 
-This is a classic Snake game implemented in Python using the turtle library.
+This is a Snake game where an agent learns to play using Q-learning. The game is built with Pygame, and the agent improves by playing many games and updating a Q-table.
 
 ## Features
-- Control the snake with arrow keys.
-- Eat food to grow longer.
-- Avoid collision with walls or yourself.
-- Scoring system.
-- Game over detection.
-- High score tracking.
+- Snake game using Pygame.
+- Q-learning agent with ε-greedy strategy.
+- State includes food direction and obstacle information.
+- Rewards for eating food, penalties for dying.
+- Visual training and testing.
+- Q-table saved and loaded from file.
 
 ## Requirements
-- Python 3.9
-- Turtle library
+- Python 3.9+
+- Pygame
+- NumPy
 
 ## Installation
 1. Clone the repository:
